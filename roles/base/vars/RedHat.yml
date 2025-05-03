@@ -1,6 +1,6 @@
 base_packages:
   - dnf-plugins-core
-  - neofetch
+  - fastfetch
   - git
   - terminator
   - zsh
@@ -57,4 +57,5 @@ additional_rpmfusion_packages:
 
 fedora_packages:
   - gtkterm
-  - java-1.8.0-openjdk-openjfx
+  - openjfx
+  #java-1.8.0-openjdk-openjfx

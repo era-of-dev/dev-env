@@ -12,7 +12,7 @@
         - nvidia
         - never 
   post_tasks:
-    - name: Get neofetch output
-      command: neofetch
-      register: neofetch_output
-    - debug: msg="{{ neofetch_output.stdout }}"
+    - name: Get fastfetch output
+      command: fastfetch
+      register: fastfetch_output
+    - debug: msg="{{ fastfetch_output.stdout }}"
